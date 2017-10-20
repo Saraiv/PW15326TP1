@@ -76,3 +76,66 @@ html {
   cursor: pointer;
   border-radius: 20px;
 }
+
+.corpotudotexto {
+    background-image: url('nature.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 58px;
+    background-color: rgb(255, 255, 255);
+}
+
+.corpotudotexto  h1{
+  margin-top: 50px;
+  color: rgb(44, 44, 48);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.corpotudotexto .left{
+  margin-left: 50px;
+  width: 45%;
+  float: left;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.corpotudotexto .left p{
+  letter-spacing: 2px;
+  margin-top: 20px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.corpotudotexto .right{
+  margin-left: 80px;
+  width: 45%;
+  float: left;
+}
+
+.corpotudotexto .right p{
+  letter-spacing: 2px;
+  float: left;
+  width: 85%;
+  margin-top: 20px;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.corpotudotexto img{
+  float: left;
+  margin-top: 20px;
+  float: left;
+  width:530px;
+  height:300px;
+}
