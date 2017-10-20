@@ -1,0 +1,43 @@
+html {
+  background: url('../img/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(33, 33, 33);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    opacity: inherit;
+}
+
+.menu ul{
+  margin-top: 15px;
+  margin-left: 100px;
+}
+/*
+li a {
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+}
+
+li a:hover {
+    color: #000;
+}*/
