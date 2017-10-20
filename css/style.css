@@ -6,38 +6,73 @@ html {
   background-size: cover;
 }
 
-ul {
+.element .menu ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5px;
     overflow: hidden;
+    border-bottom: solid;
+    border-color: #fff;
+    border-width: 1px;
 }
 
-li {
-    float: left;
+.element .menu .logo{
+  float: left;
 }
 
-li a {
+.element .menu .menu_right{
+  float: right;
+}
+
+.element .menu li a {
+    margin-left: 50px;
     display: block;
     color: rgb(33, 33, 33);
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    opacity: inherit;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
 }
 
-.menu ul{
-  margin-top: 15px;
-  margin-left: 100px;
-}
-/*
-li a {
-    display: block;
-    width: 60px;
-    text-decoration: none;
-    color: rgb(33, 33, 33);
+.menu li a:hover{
+  color: #fff;
 }
 
-li a:hover {
-    color: #000;
-}*/
+.corpo{
+  width: 500px;
+  height: 300px;
+  position: relative;
+  margin-top: 200px;
+  left: 50%;
+  margin-left: -250px;
+  float: center;
+  text-align: center;
+}
+
+.corpo h1{
+  color: rgb(44, 44, 48);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+}
+
+.corpo p{
+  color: rgb(44, 44, 48);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.corpo a{
+  background-color: rgb(44, 44, 48);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 60px;
+  cursor: pointer;
+  border-radius: 20px;
+}
