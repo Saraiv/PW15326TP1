@@ -139,3 +139,56 @@ html {
   width:530px;
   height:300px;
 }
+
+.corpotudotexto .topo h1{
+  margin-top: 50px;
+  margin-left: 60px;
+  color: rgb(44, 44, 48);
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(185, 185, 185);
+  width: 90%;
+}
+
+.corpotudotexto .um{
+  float: left;
+  margin-left: 60px;
+  width: 40%;
+}
+
+.corpotudotexto .um h1{
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.corpotudotexto .um p{
+  text-align: justify;
+  margin-top: -40px;
+}
+
+.corpotudotexto .dois{
+  float: right;
+  margin-right: 65px;
+  width: 40%;
+}
+
+.corpotudotexto .dois h1{
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.corpotudotexto .dois p{
+  text-align: justify;
+  margin-top: -40px;
+}
+
+.corpotudotexto .tres{
+  float: left;
+}
+
+.corpotudotexto .quatro{
+  float: left;
+}
