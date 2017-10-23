@@ -86,7 +86,6 @@ html {
     overflow: auto;
     position: absolute;
     right: 0;
-    text-align: center;
     top: 58px;
     background-color: rgb(255, 255, 255);
 }
@@ -135,9 +134,16 @@ html {
 .corpotudotexto img{
   float: left;
   margin-top: 20px;
-  float: left;
-  width:530px;
-  height:300px;
+  width:650px;
+  height:350px;
+}
+
+.corpotudotexto a{
+  color: rgb(44, 44, 48);
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  text-decoration: none;
 }
 
 .corpotudotexto .topo h1{
@@ -158,37 +164,59 @@ html {
   margin-left: 60px;
   width: 40%;
 }
-
-.corpotudotexto .um h1{
+/*
+.corpotudotexto .um a{
+  color: rgb(44, 44, 48);
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+}
+*/
+.corpotudotexto .um p{
   margin-top: 10px;
   text-align: justify;
-}
-
-.corpotudotexto .um p{
-  text-align: justify;
-  margin-top: -40px;
 }
 
 .corpotudotexto .dois{
   float: right;
-  margin-right: 65px;
+  margin-right: 5%;
   width: 40%;
 }
-
-.corpotudotexto .dois h1{
+/*
+.corpotudotexto .dois a{
+  color: rgb(44, 44, 48);
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+}
+*/
+.corpotudotexto .dois p{
   margin-top: 10px;
   text-align: justify;
 }
 
-.corpotudotexto .dois p{
-  text-align: justify;
-  margin-top: -40px;
-}
-
 .corpotudotexto .tres{
   float: left;
+  margin-left: 60px;
+  width: 40%;
+}
+
+.corpotudotexto .tres p{
+  margin-top: 10px;
+  text-align: justify;
+  margin-bottom: 15px;
 }
 
 .corpotudotexto .quatro{
-  float: left;
+  float: right;
+  margin-right: 5%;
+  width: 40%;
+}
+
+.corpotudotexto .quatro p{
+  margin-top: 10px;
+  text-align: justify;
+  margin-bottom: 15px;
 }
