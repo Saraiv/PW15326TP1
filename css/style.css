@@ -131,7 +131,7 @@ html {
   font-size: 16px;
 }
 
-.corpotudotexto img{
+.corpotudotexto .right img{
   float: left;
   margin-top: 20px;
   width:650px;
@@ -159,64 +159,61 @@ html {
   width: 90%;
 }
 
-.corpotudotexto .um{
+.corpotudotexto .imagens img{
   float: left;
-  margin-left: 60px;
-  width: 40%;
-}
-/*
-.corpotudotexto .um a{
-  color: rgb(44, 44, 48);
-  text-align: justify;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 32px;
-  text-decoration: none;
-}
-*/
-.corpotudotexto .um p{
-  margin-top: 10px;
-  text-align: justify;
+  margin-top: 20px;
+  width:650px;
+  height:350px;
 }
 
-.corpotudotexto .dois{
-  float: right;
-  margin-right: 5%;
-  width: 40%;
-}
-/*
-.corpotudotexto .dois a{
-  color: rgb(44, 44, 48);
-  text-align: left;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 32px;
-  text-decoration: none;
-}
-*/
-.corpotudotexto .dois p{
-  margin-top: 10px;
-  text-align: justify;
-}
-
-.corpotudotexto .tres{
+.corpotudotexto .imagens .um{
   float: left;
   margin-left: 60px;
   width: 40%;
 }
 
-.corpotudotexto .tres p{
+.corpotudotexto .imagens .um p{
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.corpotudotexto .imagens .dois{
+  float: right;
+  margin-right: 5%;
+  width: 40%;
+}
+.corpotudotexto .imagens .dois p{
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.corpotudotexto .imagens .tres{
+  float: left;
+  margin-left: 60px;
+  width: 40%;
+}
+
+.corpotudotexto .imagens .tres p{
   margin-top: 10px;
   text-align: justify;
   margin-bottom: 15px;
 }
 
-.corpotudotexto .quatro{
+.corpotudotexto .imagens .quatro{
   float: right;
   margin-right: 5%;
   width: 40%;
 }
 
-.corpotudotexto .quatro p{
+.corpotudotexto .imagens .quatro p{
   margin-top: 10px;
   text-align: justify;
   margin-bottom: 15px;
+}
+
+.corpotudotexto .header img{
+  position: absolute;
+  width: 90%;
+  height: 200px;
+  left: 5% !important;
 }
