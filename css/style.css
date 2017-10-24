@@ -24,9 +24,12 @@ html {
   float: right;
 }
 
+.element .menu .logo{
+  margin-left: 50px;
+}
+
 .element .menu li a {
-    margin-left: 50px;
-    display: block;
+    margin-right: 50px;
     color: rgb(33, 33, 33);
     padding: 14px 16px;
     text-decoration: none;
@@ -100,8 +103,8 @@ html {
 }
 
 .corpotudotexto .left{
-  margin-left: 50px;
-  width: 45%;
+  margin-left: 5%;
+  width: 40%;
   float: left;
   font-size: 18px;
   text-align: justify;
@@ -116,9 +119,14 @@ html {
 }
 
 .corpotudotexto .right{
-  margin-left: 80px;
-  width: 45%;
-  float: left;
+  margin-right: 5%;
+  width: 40%;
+  float: right;
+}
+
+.corpotudotexto .right img{
+  width: 700px;
+  height: 350px;
 }
 
 .corpotudotexto .right p{
@@ -131,12 +139,6 @@ html {
   font-size: 16px;
 }
 
-.corpotudotexto .right img{
-  float: left;
-  margin-top: 20px;
-  width:650px;
-  height:350px;
-}
 
 .corpotudotexto a{
   color: rgb(44, 44, 48);
@@ -148,7 +150,7 @@ html {
 
 .corpotudotexto .topo h1{
   margin-top: 50px;
-  margin-left: 60px;
+  margin-left: 3%;
   color: rgb(44, 44, 48);
   text-align: justify;
   font-family: 'Montserrat', sans-serif;
@@ -156,56 +158,102 @@ html {
   padding-bottom: 10px;
   margin-bottom: 15px;
   border-bottom: 1px solid rgb(185, 185, 185);
-  width: 90%;
+  width: 93%;
 }
 
-.corpotudotexto .imagens img{
+.corpotudotexto .imagensesquerda{
   float: left;
+  width: 42%;
+}
+
+.corpotudotexto .imagensdireita{
+  float: left;
+  width: 42%;
+}
+
+.corpotudotexto .imagensesquerda a{
+  color: rgb(110, 168, 221);
+}
+
+.corpotudotexto .imagensdireita a{
+  color: rgb(110, 168, 221);
+}
+
+.corpotudotexto .imagensesquerda .um{
+  width: 100%;
+}
+
+.corpotudotexto .imagensdireita .dois{
+  width: 100%;
+}
+
+.corpotudotexto .imagensesquerda .tres{
+  width: 100%;
+}
+
+.corpotudotexto .imagensdireita .quatro{
+  width: 100%;
+}
+
+.corpotudotexto .imagensesquerda .um img{
   margin-top: 20px;
-  width:650px;
-  height:350px;
+  width: 800px;
+  height:400px;
 }
 
-.corpotudotexto .imagens .um{
-  float: left;
-  margin-left: 60px;
+.corpotudotexto .imagensdireita .dois img{
+  margin-top: 20px;
+  width:800px;
+  height:400px;
+}
+
+.corpotudotexto .imagensesquerda .tres img{
+  margin-top: 20px;
+  width:800px;
+  height:400px;
+}
+
+.corpotudotexto .imagensdireita .quatro img{
+  margin-top: 20px;
+  width:800px;
+  height:400px;
+}
+
+.corpotudotexto .imagensesquerda .um{
+  margin-left: 7%;
   width: 40%;
 }
 
-.corpotudotexto .imagens .um p{
+.corpotudotexto .imagensesquerda .um p{
   margin-top: 10px;
   text-align: justify;
 }
 
-.corpotudotexto .imagens .dois{
-  float: right;
-  margin-right: 5%;
+.corpotudotexto .imagensdireita .dois{
+  margin-left: 26%;
   width: 40%;
 }
-.corpotudotexto .imagens .dois p{
+.corpotudotexto .imagensdireita .dois p{
   margin-top: 10px;
   text-align: justify;
 }
 
-.corpotudotexto .imagens .tres{
-  float: left;
-  margin-left: 60px;
+.corpotudotexto .imagensesquerda .tres{
+  margin-left: 7%;
   width: 40%;
 }
 
-.corpotudotexto .imagens .tres p{
+.corpotudotexto .imagensesquerda .tres p{
   margin-top: 10px;
   text-align: justify;
-  margin-bottom: 15px;
 }
 
-.corpotudotexto .imagens .quatro{
-  float: right;
-  margin-right: 5%;
+.corpotudotexto .imagensdireita .quatro{
+  margin-left: 26%;
   width: 40%;
 }
 
-.corpotudotexto .imagens .quatro p{
+.corpotudotexto .imagensdireita .quatro p{
   margin-top: 10px;
   text-align: justify;
   margin-bottom: 15px;
@@ -216,4 +264,76 @@ html {
   width: 90%;
   height: 200px;
   left: 5% !important;
+}
+
+.corpotudotexto .informação{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 300px;
+}
+
+.corpotudotexto .informação h2{
+  color: rgb(44, 44, 48);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.corpotudotexto .informação p{
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.corpotudotexto .informação .informação1{
+  width: 20%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.corpotudotexto .informação .informação1 img{
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.corpotudotexto .informação .informação2{
+  width: 20%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.corpotudotexto .informação .informação2 img{
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.corpotudotexto .informação .informação3{
+  width: 20%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.corpotudotexto .informação .informação3 img{
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.corpotudotexto .informação .informação4{
+  width: 20%;
+  display: inline-block;
+}
+
+.corpotudotexto .informação .informação4 img{
+  margin-top: 10px;
+  width: 100%;
+  height: 150px;
+}
+
+.corpotudotexto .right iframe{
+  width: 100%;
+  height: 500px;
+  border: 0;
+  margin-top: 10%;
 }
