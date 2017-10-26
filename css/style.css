@@ -125,7 +125,7 @@ html {
 }
 
 .corpotudotexto .right img{
-  width: 700px;
+  width: 100%;
   height: 350px;
 }
 
@@ -163,11 +163,13 @@ html {
 
 .corpotudotexto .imagensesquerda{
   float: left;
+  margin-left: 5%;
   width: 42%;
 }
 
 .corpotudotexto .imagensdireita{
   float: left;
+  margin:right;
   width: 42%;
 }
 
@@ -195,27 +197,14 @@ html {
   width: 100%;
 }
 
-.corpotudotexto .imagensesquerda .um img{
+.corpotudotexto .imagensesquerda img{
   margin-top: 20px;
-  width: 800px;
   height:400px;
 }
 
-.corpotudotexto .imagensdireita .dois img{
+.corpotudotexto .imagensdireita img{
   margin-top: 20px;
-  width:800px;
-  height:400px;
-}
-
-.corpotudotexto .imagensesquerda .tres img{
-  margin-top: 20px;
-  width:800px;
-  height:400px;
-}
-
-.corpotudotexto .imagensdireita .quatro img{
-  margin-top: 20px;
-  width:800px;
+  width:100%;
   height:400px;
 }
 
