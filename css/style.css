@@ -50,9 +50,7 @@ html {
   height: 300px;
   position: relative;
   margin-top: 200px;
-  left: 50%;
-  margin-left: -250px;
-  float: center;
+  margin-left: 32%;
   text-align: center;
 }
 
@@ -373,9 +371,7 @@ html {
     height: 300px;
     position: relative;
     margin-top: 200px;
-    left: 50%;
-    margin-left: -250px;
-    float: center;
+    margin-left: 32%;
     text-align: center;
   }
 
@@ -693,6 +689,14 @@ html {
     color: #fff;
   }
 
+  .corpo{
+    margin-top: 90px;
+  }
+
+  .corpotudotexto h1{
+    margin-bottom: 20px;
+  }
+
   .corpotudotexto .left{
     margin-left: 2%;
     padding-right: 2%;
@@ -767,7 +771,9 @@ html {
 }
 
 @media (max-width: 400px){ /* Smartphone */
+
   .element .menu{
+    width: 90%;
     visibility: hidden;
   }
 
