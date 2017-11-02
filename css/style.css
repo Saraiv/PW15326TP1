@@ -17,7 +17,7 @@ html {
 }
 
 .hamburguer{
-  visibility: hidden;
+  display: none;
 }
 
 .element .menu .logo{
@@ -338,7 +338,7 @@ html {
   }
 
   .hamburguer{
-    display:none;
+    display: none;
   }
 
   .element .menu .logo{
@@ -371,7 +371,7 @@ html {
     height: 300px;
     position: relative;
     margin-top: 200px;
-    margin-left: 18%;
+    margin-left: 30%;
     text-align: center;
   }
 
@@ -660,7 +660,7 @@ html {
   }
 
   .hamburguer{
-    display:none;
+    display: none;
   }
 
   .element .menu .logo{
@@ -691,6 +691,7 @@ html {
 
   .corpo{
     margin-top: 90px;
+    margin-left: 145px;
   }
 
   .corpotudotexto h1{
@@ -776,6 +777,13 @@ html {
     visibility: hidden;
   }
 
+  .corpo{
+    width: 370px;
+    height: 200px;
+    margin: 0;
+    margin-left: 10px;
+  }
+
   .corpo h1{
     font-size: 30px;
   }
@@ -788,9 +796,59 @@ html {
     font-size: 12px;
   }
 
-  .element .menu .hamburguer{
-    width: 50px;
-    height: 50px;
-    visibility: visible;
+  .element{
+    margin: 0;
   }
+
+  .element .menu{
+    margin-top: 0;
+    float:right;
+  }
+
+  .element .menu .hamburguer{
+    display: inline-block;
+    visibility: visible;
+    float: left;
+  }
+
+  .element .menu ul{
+    margin: 0;
+    top:0;
+  }
+
+  .element .menu img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .element .menu{
+    width: 100%;
+  }
+
+  .corpotudotexto{
+    background-image: url('nature.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .corpotudotexto .left{
+    margin-left: 15px;
+  }
+
+  .corpotudotexto .right img{
+    width: 300px;
+    height: 140px;
+  }
+
+  .corpotudotexto .left{
+    width: 90%;
+  }
+
 }
